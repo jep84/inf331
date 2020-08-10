@@ -4,7 +4,7 @@
 
 ## Tarefa Web Components 1
 
-```
+```xml
 <dcc-trigger label="Mundo"
              action="noticia/mundo/politica"
              value="Donald Trump derruba muro na fronteira com México e inaugura programa de incentivo à imigração para o país do Tio Sam!">
@@ -51,7 +51,7 @@
 
 ## Tarefa Web Components 2
 
-```
+```xml
 <dcc-trigger label="Next Item" action="next/rss">
 </dcc-trigger>
 
