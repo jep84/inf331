@@ -4,7 +4,7 @@
 
 ## Tarefa Web Components 1
 
-```xml
+```html
 <dcc-trigger label="Mundo"
              action="noticia/mundo/politica"
              value="Donald Trump derruba muro na fronteira com México e inaugura programa de incentivo à imigração para o país do Tio Sam!">
@@ -38,7 +38,7 @@
                  duration="0s"
                  character="nurse"
                  speech="Olá! ">
-  <subscribe-dcc topic="noticia/(brasil|bahia)/#"></subscribe-dcc>
+  <subscribe-dcc topic="noticia/brasil/#"></subscribe-dcc>
 </dcc-lively-talk>
 
 <dcc-lively-talk id="patient"
@@ -51,7 +51,7 @@
 
 ## Tarefa Web Components 2
 
-```xml
+```html
 <dcc-trigger label="Next Item" action="next/rss">
 </dcc-trigger>
 
