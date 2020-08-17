@@ -14,5 +14,5 @@
 ![Tela4](https://github.com/jep84/inf331/blob/master/lab03/images/tela4.png)
 ![DiagramaDeBloco](https://github.com/jep84/inf331/blob/master/lab03/images/diagramabloco.png)
 
-[AppInventorProject](https://github.com/jep84/inf331/tree/master/lab03/app/inf331tarefa3.aia)
+[Projeto MIT App Inventor](https://github.com/jep84/inf331/tree/master/lab03/app/inf331tarefa3.aia)
 
