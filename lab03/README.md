@@ -32,3 +32,6 @@
 
 [Projeto MIT App Inventor](https://github.com/jep84/inf331/tree/master/lab03/app/inf331tarefa3.aia)
 
+# Tarefa 4
+
+[Tarefa MVC em equipe](https://github.com/inf331equipe6/tarefas)
