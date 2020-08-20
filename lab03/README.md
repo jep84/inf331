@@ -1,12 +1,14 @@
-# Tarefa 1
+# Orquestração e Coreografia
+
+## Tarefa 1
 
 ![Order](https://github.com/jep84/inf331/blob/master/lab03/images/order.png)
 
-# Tarefa 2
+## Tarefa 2
 
 ![Leilao](https://github.com/jep84/inf331/blob/master/lab03/images/leilao.png)
 
-# Tarefa 3
+## Tarefa 3
 
 * Nenhum produto selecionado
 
