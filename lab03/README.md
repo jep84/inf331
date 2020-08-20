@@ -30,6 +30,8 @@
 
 ![Blocks](https://github.com/jep84/inf331/blob/master/lab03/images/blocks.png)
 
+* Projeto
+
 [Projeto MIT App Inventor](https://github.com/jep84/inf331/tree/master/lab03/app/inf331tarefa3.aia)
 
 # Tarefa 4
