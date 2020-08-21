@@ -13,12 +13,12 @@
 <br>
 <table border="0">
    <tr>
-      <td>Tela 1 <br>Nenhum produto selecionado<br><img alt="Tela 1 - nenhum produto selecionado" src="images/tela1.png" width="60%" height="60%" /></td>
-      <td>Tela 2<br>Primeiro produto selecionado <br><img alt="Tela 2 - primeiro produto selecionado" src="images/tela2.png" width="60%" height="60%" /></td>
-      <td>Tela 3 <br>Segundo produto selecionado <br><img alt="Tela 3 - segundo produto selecionado" src="images/tela3.png" width="60%" height="60%" /></td>
+      <td>Nenhum produto selecionado<br><br><img alt="Tela 1 - nenhum produto selecionado" src="images/tela1.png" width="80%" height="80%" /></td>
+      <td>Primeiro produto selecionado <br><br><img alt="Tela 2 - primeiro produto selecionado" src="images/tela2.png" width="80%" height="80%" /></td>
+      <td>Segundo produto selecionado <br><br><img alt="Tela 3 - segundo produto selecionado" src="images/tela3.png" width="80%" height="80%" /></td>
    </tr>
    <tr>
-      <td>Tela 4 <br>Compra de um dos produtos efetiva<br><img alt="Tela 4 <br>Compra de um dos produtos efetiva" src="images/tela4.png" width="60%" height="60%" /></td>
+      <td>Compra de um dos produtos efetiva<br><br><img alt="Tela 4 <br>Compra de um dos produtos efetiva" src="images/tela4.png" width="80%" height="80%" /></td>
 
    </tr>
 </table>
