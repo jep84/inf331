@@ -10,19 +10,21 @@
 
 ## Tarefa 3
 
-<br>
-<table border="0">
-   <tr>
-      <td>Tela 1 - Nenhum produto selecionado<br><br><img alt="Tela 1 - nenhum produto selecionado" src="images/tela1.png" width="80%" height="80%" /></td>
-      <td>Tela 2 - Primeiro produto selecionado <br><br><img alt="Tela 2 - primeiro produto selecionado" src="images/tela2.png" width="80%" height="80%" /></td>
-      <td>Tela 3 - Segundo produto selecionado <br><br><img alt="Tela 3 - segundo produto selecionado" src="images/tela3.png" width="80%" height="80%" /></td>
-   </tr>
-   <tr>
-      <td>Tela 4 - Compra de um dos produtos efetiva<br><br><img alt="Tela 4 <br>Compra de um dos produtos efetiva" src="images/tela4.png" width="80%" height="80%" /></td>
+* Tela 1 - Nenhum produto selecionado
 
-   </tr>
-</table>
-<br>
+[Tela 1](https://github.com/jep84/inf331/blob/master/lab03/images/tela1.png)
+
+* Tela 2 - Primeiro produto selecionado
+
+[Tela 2](https://github.com/jep84/inf331/blob/master/lab03/images/tela2.png)
+
+* Tela 3 - Segundo produto selecionado
+
+[Tela 3](https://github.com/jep84/inf331/blob/master/lab03/images/tela3.png)
+
+* Tela 4 - Compra de um dos produtos efetiva
+
+[Tela 4](https://github.com/jep84/inf331/blob/master/lab03/images/tela4.png)
 
 * Diagrama de bloco do aplicativo
 
