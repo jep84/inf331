@@ -14,18 +14,18 @@
 
 ## Serviço <nome do serviço>
 
-* Título do serviço: <serviço>
-* Breve descrição: <descrição>
-* URL completa da requisição: <URL>
-* Cabeçalho HTTP da chamada:
+* __Título do serviço__: <serviço>
+* __Breve descrição__: <descrição>
+* __URL completa da requisição__: <URL>
+* __Cabeçalho HTTP da chamada__:
 ~~~http
 GET http://www.teste.com HTTP/2
 ~~~
-* Cabeçalho HTTP da resposta:
+* __Cabeçalho HTTP da resposta__:
 ~~~http
 GET http://www.teste.com HTTP/2
 ~~~
-* Conteúdo da resposta:
+* __Conteúdo da resposta__:
 ~~~json
 {
     "chave": "valor"
