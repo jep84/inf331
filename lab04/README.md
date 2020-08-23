@@ -1,18 +1,18 @@
-# Tarefa 1
+## Tarefa 1
 
 ![Tela 3](https://github.com/jep84/inf331/blob/master/lab04/images/tarefa1.png)
 
-# Tarefa 2
+## Tarefa 2
 
 ![Tela 3](https://github.com/jep84/inf331/blob/master/lab04/images/tarefa2.png)
 
-# Tarefa 3
+## Tarefa 3
 
 ![Tela 3](https://github.com/jep84/inf331/blob/master/lab04/images/tarefa3.png)
 
-# Tarefa 4
+## Tarefa 4
 
-## Serviço <nome do serviço>
+### Serviço <nome do serviço>
 
 * __Título do serviço__: <serviço>
 * __Breve descrição__: <descrição>
