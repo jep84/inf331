@@ -3,6 +3,7 @@
 ![Diagrama de Subcomponentes](images/tarefa1.png)
 
 ## Tarefa 2
+Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io/jep84/pen/poywKym)
 
 **HTML**
 ~~~html
