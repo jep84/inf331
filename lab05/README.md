@@ -7,6 +7,7 @@
 **HTML**
 ~~~html
 <div id="root"></div>
+<div id="smyle"></div>
 ~~~
 
 **JavaScript**
@@ -18,6 +19,12 @@ class Barra extends React.Component {
       resultado += "=";
     return resultado;
   }
+  
+  randSmyle() {
+       let caracter = [':D', ':P', ':-)', '=)', 'q=)', ':~)'];
+       let rand = Math.floor(Math.random() * (6 - 0)) + 0;
+       return caracter[rand];
+  }
 }
 
 const elemento = <div>
@@ -27,4 +34,13 @@ const elemento = <div>
                  </div>
 ReactDOM.render(elemento, 
         document.getElementById("root"));
+
+function showSmyle() {
+  const smyle = (
+    <div>
+      <h1>{new Barra().randSmyle()}</h1>
+    </div>
+  );
+  ReactDOM.render(smyle, document.getElementById('smyle'));
+} setInterval(showSmyle, 1000);
 ~~~
