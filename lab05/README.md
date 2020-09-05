@@ -20,27 +20,44 @@ class Barra extends React.Component {
     return resultado;
   }
   
-  randSmyle() {
-       let caracter = [':D', ':P', ':-)', '=)', 'q=)', ':~)'];
-       let rand = Math.floor(Math.random() * (6 - 0)) + 0;
-       return caracter[rand];
+  temperatura() {
+       let temperatura = Math.floor(Math.random() * (38 - 30)) + 30;
+       let c = "Temperatura: " + temperatura + " °C";
+       return c;
+  }
+  
+  umidade() {
+       let umidade = Math.floor(Math.random() * (50 - 60)) + 50;
+       let c = "Umidade: " + umidade + " %";
+       return c;
   }
 }
 
 const elemento = <div>
-                   <h2>O dinossauro</h2>                    
+                   <h2>O dinossauro</h2>                          
                    <h2>pulou na lama.</h2>
-                   <div id="smyle"></div>
+                   <h3>===============</h3>
+                   <h3><u>Condições da Lama</u></h3>
+                   <div id="temperatura"></div>
+                   <div id="umidade"></div>
                  </div>
-ReactDOM.render(elemento, 
-        document.getElementById("root"));
+ReactDOM.render(elemento, document.getElementById("root"));
 
-function showSmyle() {
-  const smyle = (
+function MostraSensores() {
+  const temperatura = (
     <div>
-      <h1>{new Barra().randSmyle()}</h1>
+      <h3>{new Barra().temperatura()}</h3>
     </div>
   );
-  ReactDOM.render(smyle, document.getElementById('smyle'));
-} setInterval(showSmyle, 800);
+  
+  const umidade = (
+    <div>
+      <h3>{new Barra().umidade()}</h3>
+    </div>
+  );
+  
+  ReactDOM.render(temperatura, document.getElementById('temperatura'));
+  ReactDOM.render(umidade, document.getElementById('umidade'));
+  
+} setInterval(MostraSensores, 1000);
 ~~~
