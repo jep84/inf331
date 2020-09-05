@@ -8,7 +8,6 @@ Link para o projeto no Codepen: [React 03 - Componente Barra](https://codepen.io
 **HTML**
 ~~~html
 <div id="root"></div>
-<div id="smyle"></div>
 ~~~
 
 **JavaScript**
@@ -29,19 +28,19 @@ class Barra extends React.Component {
 }
 
 const elemento = <div>
-    <h2>O dinossauro</h2>
-    <Barra tamanho="10"/>
-    <h2>pulou na lama.</h2>
-    </div>
+                   <h2>O dinossauro</h2>                    
+                   <h2>pulou na lama.</h2>
+                   <div id="smyle"></div>
+                 </div>
 ReactDOM.render(elemento, 
-    document.getElementById("root"));
+        document.getElementById("root"));
 
 function showSmyle() {
-    const smyle = (
-        <div>
-            <h1>{new Barra().randSmyle()}</h1>
-        </div>
-    );
-    ReactDOM.render(smyle, document.getElementById('smyle'));
-} setInterval(showSmyle, 1000);
+  const smyle = (
+    <div>
+      <h1>{new Barra().randSmyle()}</h1>
+    </div>
+  );
+  ReactDOM.render(smyle, document.getElementById('smyle'));
+} setInterval(showSmyle, 800);
 ~~~
